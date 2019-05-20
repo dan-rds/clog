@@ -1,7 +1,7 @@
 import 'dart:core';
 
-main(List<String> args) {
-  var s = "string instance";
+clog() {
+  var s = "___string instance";
   print(s);
   print(s.runtimeType);
 }
