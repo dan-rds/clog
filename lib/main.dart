@@ -20,7 +20,7 @@ String esc_sequence(color) => _start + color + "m";
 
 String build_string(s, color_code) => esc_sequence(color_code) + s + esc_sequence('0');
 
-clog() {
+class clog {
   List log_types = ["ERROR", "DEBUG", "WARNING", "INFO"];
   List color_log_type = [red_code, blue_code, yellow_code, green_code];
 
