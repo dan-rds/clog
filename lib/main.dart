@@ -30,4 +30,8 @@ clog() {
       print(build_string(log_types[i], color_log_type[i]));
     }
   }
+
+  void e(String s) {
+    print(build_string(s, red_code));
+  }
 }
